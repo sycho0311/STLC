@@ -23,11 +23,13 @@
 		data-toggle="dropdown" style="display: block; width: 100%; padding: 20px;">메뉴
 	</button>
 	<div class="dropdown-menu">
+	<div style="width:100px; margin:0 auto;">
 		<a class="dropdown-item" href="<c:url value="/traffic1" />">신호등1</a>
 		<a class="dropdown-item" href="<c:url value="/traffic2" />">신호등2</a>
 		<a class="dropdown-item" href="<c:url value="/traffic3" />">신호등3</a>
 		<a class="dropdown-item" href="<c:url value="/traffic4" />">신호등4</a>
 		<a class="dropdown-item" href="<c:url value="/messageSetting" />">메세지 설정</a>
 		<a class="dropdown-item" href="<c:url value="/searchdata" />">분석결과 업로드</a>	
+	</div>
 	</div>
 </div>
